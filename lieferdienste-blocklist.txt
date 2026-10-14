@@ -1,0 +1,88 @@
+! Title: Lieferdienste-Blockliste (DACH + international)
+! Description: Blockt Essens-Lieferdienste, damit kein Essen mehr bestellt werden kann
+! Format: AdGuard Home (||domain^ blockt die Domain inkl. aller Subdomains)
+! Last modified: 2026-10-14
+
+! ===== Lieferando / Just Eat Takeaway =====
+||lieferando.de^
+||lieferando.at^
+||lieferando.com^
+||pizza.de^
+||lieferheld.de^
+||takeaway.com^
+||just-eat.ch^
+||eat.ch^
+||just-eat.com^
+||justeat.com^
+||just-eat.co.uk^
+||justeattakeaway.com^
+||thuisbezorgd.nl^
+||pyszne.pl^
+||jet-external.com^
+||tkwy.com^
+
+! ===== Uber Eats =====
+||ubereats.com^
+||eats.uber.com^
+||ubereats-media.com^
+! ACHTUNG: Die Uber-Eats-App nutzt teils dieselben Server wie die Uber-Fahrdienst-App.
+! Wenn die App trotzdem noch funktioniert und du Uber NICHT für Fahrten brauchst,
+! entferne das "!" vor der nächsten Zeile (blockt dann auch Uber-Fahrten):
+! ||uber.com^
+
+! ===== Wolt (DoorDash) =====
+||wolt.com^
+||wolt.fi^
+||woltapi.com^
+||wolt.app^
+
+! ===== Foodora / Mjam / Foodpanda (Delivery Hero) =====
+||foodora.de^
+||foodora.at^
+||foodora.com^
+||foodora.se^
+||foodora.no^
+||mjam.net^
+||mjam.at^
+||foodpanda.com^
+||deliveryhero.io^
+||fd-api.com^
+||talabat.com^
+||glovoapp.com^
+
+! ===== Schweiz =====
+||smood.ch^
+||dieci.ch^
+||dominos.ch^
+
+! ===== Pizza- & Fastfood-Lieferketten =====
+||dominos.de^
+||dominos.at^
+||dominos.com^
+||pizzahut.de^
+||pizzahut.at^
+||call-a-pizza.de^
+||joeys.de^
+||smiley.de^
+||pizza-max.de^
+||burgerme.de^
+||hallopizza.de^
+||dean-david.de^
+
+! ===== International (falls du auf Reisen oder per VPN bestellst) =====
+||deliveroo.com^
+||deliveroo.co.uk^
+||deliveroo.fr^
+||doordash.com^
+||grubhub.com^
+||postmates.com^
+||seamless.com^
+||glovo.com^
+
+! ===== Optional: Lebensmittel-Lieferdienste (Snacks, Fertiggerichte) =====
+! Entferne das "!" vor den Zeilen, wenn du auch die blocken willst:
+! ||flink.com^
+! ||goflink.com^
+! ||picnic.app^
+! ||knuspr.de^
+! ||rewe.de^
